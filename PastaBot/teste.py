@@ -10,8 +10,8 @@ options = Options()
 options.add_argument("--start-maximized")
 
 # Credenciais
-username = "mfreitas_125"
-password = "210707270890Mp_"
+username = "usuario"
+password = "senha"
 
 # Inicia o navegador com as opções
 driver = webdriver.Chrome(options=options)
@@ -41,4 +41,5 @@ time.sleep(1)
 
 # Pressiona Enter para enviar
 pyautogui.press("enter")
+
 time.sleep(30)
